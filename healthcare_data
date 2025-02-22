@@ -119,7 +119,7 @@ USE Healthcare_DB
 	*/
 
 	SELECT 
-		DIAGNOSIScODE
+	    DiagnosisCode
 	   ,DiagnosisCodeGroup 
 	   ,SUM(CPTUnits) as 'Units'
 	FROM FactTable
